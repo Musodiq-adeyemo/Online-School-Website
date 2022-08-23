@@ -1,0 +1,1749 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALTSCHOOL DASHBOARD</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="general-container">
+        <div class="menu">
+            <div class="name">
+                <img src="LOGO2.png"><span>ALTSCHOOL</span>
+            </div>
+            <ul>
+                <li><img class="icon" src="HOME.png"><a href="#home">HOME</a></li>
+                <li><img class="icon" src="PROFIE.png"><a href="#profile">PROFILE</a></li>
+                <li><img class="icon" src="ATTENDANCE.png"><a href="#attendance">ATTENDANCE</a></li>
+                <li><img class="icon" src="TRACK.png"><a href="#track">TRACK</a></li>
+                <li><img class="icon" src="COURSE.png"><a href="#course">COURSE</a></li>
+                <li><img class="icon" src="GRADE.png"><a href="#grade">GRADE</a></li>
+                <li><img class="icon" src="HELP.png"><a href="#">HELP</a></li>
+                <li><img class="icon" src="LOGOUT.png"><a href="#">LOGOUT</a></li>
+            </ul>
+        </div>
+        <div class="main">
+            <div class="nav-bar">
+                <nav>
+                    <div class="profile">
+                        <img src="CEO1.png">
+                    </div>
+                    <div class="search">
+                        <div class="input">
+                            <input type="text" name="search"><img src="SEARCH.png">
+                        </div>
+                        <div class="button">
+                            <button href="#">REGISTER</button>
+                            <button href="#">LOGIN</button>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <section id="home">
+                <h1>DASHBOARD</h1>
+                <div class="home">
+                    <div class="home-container">
+                        <img src="FRONTEND.png">
+                        <div class="info">
+                            <h4>FRONTEND ENGINEERING</h4>
+                            <h5>42%</h5>
+                            <h5>5 STUDENTS</h5>
+                            <button href="#">GET STARTED</button>
+                        </div>
+                    </div>
+                    <div class="home-container">
+                        <img src="BACKEND.png">
+                        <div class="info">
+                            <h4 id="bck">BACKEND ENGINEERING</h4>
+                            <h5>33%</h5>
+                            <h5>4 STUDENTS</h5>
+                            <button href="#">GET STARTED</button>
+                        </div>
+                    </div>
+                    <div class="home-container">
+                        <img src="CLOUD.png">
+                        <div class="info">
+                            <h4 id="cld">CLOUD ENGINEERING</h4>
+                            <h5>25%</h5>
+                            <h5>3 STUDENTS</h5>
+                            <button href="#">GET STARTED</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="table">
+                    <h3>STUDENT LIST</h3>
+                    <table>
+                        <thead class="head">
+                            <tr>
+                                <th>NAME</th>
+                                <th>ID</th>
+                                <th>TRACK</th>
+                                <th>STATUS</th>
+                                <th>RATE</th>
+                                <th>OTHERS</th>
+                            </tr>
+                        </thead>
+                        <tbody class="body">
+                            <tr class="group">
+                                <td class="pic">
+                                    <img  src="MUSODIQ.png">
+                                    <div>
+                                        <p>ADEYEMO M.O</p>
+                                        <p>musodiq@gmail.com</p>
+                                    </div>
+                                </td>
+                                <td>4236AD</td>
+                                <td>Backend</td>
+                                <td>
+                                    <button id="active">Active</button>
+                                </td>
+                                <td id="rate"></td>
+                                <td>
+                                    <div class="view">
+                                        <button id="view1">View</button>
+                                        <div id="views1">
+                                            <span>Firstname:<br> MUSODIQ</span>
+                                            <span>Lastname:<br> ADEYEMO</span>
+                                            <span>Email:<br> muso@gmail.com</span>
+                                            <span>phone:<br> +2348141171294</span>
+                                            <span>Grade:<br> HIGH</span>
+                                        </div>
+                                        
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="group">
+                                <td class="pic">
+                                    <img  src="ALIMOT.png">
+                                    <div>
+                                        <p>ADEYEMO A.S</p>
+                                        <p>alimotu@gmail.com</p>
+                                    </div>
+                                </td>
+                                <td>4237AD</td>
+                                <td>Frontend</td>
+                                <td>
+                                    <button id="active">Active</button>
+                                </td>
+                                <td id="rate1"></td>
+                                <td>
+                                    <div class="view">
+                                        <button id="view2">View</button>
+                                        <div id="views2">
+                                            <span>Firstname:<br> ALIMOT</span>
+                                            <span>Lastname: <br>ADEYEMO</span>
+                                            <span>Email: <br>alimot@gmail.com</span>
+                                            <span>phone: <br>+2348028131219</span>
+                                            <span>Grade: <br>AVERAGE</span>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="group">
+                                <td class="pic">
+                                    <img  src="JELILAT.png">
+                                    <div>
+                                        <p>ADEYEMO J.O</p>
+                                        <p>ollyinkus@gmail.com</p>
+                                    </div>
+                                </td>
+                                <td>4238AD</td>
+                                <td>Cloud</td>
+                                <td>
+                                    <button id="active">Active</button>
+                                </td>
+                                <td id="rate2"></td>
+                                <td>
+                                    <div class="view">
+                                        <button id="view3">View</button>
+                                        <div id="views3">
+                                            <span>Firstname: <br>JELILAT</span>
+                                            <span>Lastname: <br>ADEYEMO</span>
+                                            <span>Email: <br>olly@gmail.com</span>
+                                            <span>phone: <br>+2349043477626</span>
+                                            <span>Grade: <br>LOW</span>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="group">
+                                <td class="pic">
+                                    <img  src="MUJEEBAT.png">
+                                    <div>
+                                        <p>ADEYEMO M.A</p>
+                                        <p>mujeebat@gmail.com</p>
+                                    </div>
+                                </td>
+                                <td>4239AD</td>
+                                <td>Backend</td>
+                                <td>
+                                    <button id="active">Active</button>
+                                </td>
+                                <td id="rate1"></td>
+                                <td>
+                                    <div class="view">
+                                        <button id="view4">View</button>
+                                        <div id="views4">
+                                            <span>Firstname: <br>MUJEEBAT</span>
+                                            <span>Lastname: <br>ADEYEMO</span>
+                                            <span>Email: <br>mjbt@gmail.com</span>
+                                            <span>phone:<br>+2349085182508</span>
+                                            <span>Grade: <br>AVERAGE</span>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="group">
+                                <td class="pic">
+                                    <img  src="MUJEEB.png">
+                                    <div>
+                                        <p>ADEYEMO M.K</p>
+                                        <p>mujeeb@gmail.com</p>
+                                    </div>
+                                </td>
+                                <td>4240AD</td>
+                                <td>Frontend</td>
+                                <td>
+                                    <button id="active">Active</button>
+                                </td>
+                                <td id="rate1"></td>
+                                <td>
+                                    <div class="view">
+                                        <button id="view5">View</button>
+                                        <div id="views5">
+                                            <span>Firstname: <br>MUJEEB</span>
+                                            <span>Lastname: <br>ADEYEMO</span>
+                                            <span>Email: <br>mjb@gmail.com</span>
+                                            <span>phone: <br>+2349014282005</span>
+                                            <span>Grade: <br>AVERAGE</span>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="group">
+                                <td class="pic">
+                                    <img  src="ISMAIL.png">
+                                    <div>
+                                        <p>ALIMI I.B</p>
+                                        <p>ismail@gmail.com</p>
+                                    </div>
+                                </td>
+                                <td>4241AD</td>
+                                <td>Frontend</td>
+                                <td>
+                                    <button id="active">Active</button>
+                                </td>
+                                <td id="rate"></td>
+                                <td>
+                                    <div class="view">
+                                        <button id="view6">View</button>
+                                        <div id="views6">
+                                            <span>Firstname: <br>ISMAIL</span>
+                                            <span>Lastname: <br>ALIMI</span>
+                                            <span>Email: <br>usu@gmail.com</span>
+                                            <span>phone: <br>+2348141171294</span>
+                                            <span>Grade: <br>HIGH</span>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="group">
+                                <td class="pic">
+                                    <img  src="MUSODIQ.png">
+                                    <div>
+                                        <p>ADEYEMO M.O</p>
+                                        <p>musodiq@gmail.com</p>
+                                    </div>
+                                </td>
+                                <td>4242AD</td>
+                                <td>Cloud</td>
+                                <td>
+                                    <button id="active">Active</button>
+                                </td>
+                                <td id="rate1"></td>
+                                <td>
+                                    <div class="view">
+                                        <button id="view7">View</button>
+                                        <div id="views7">
+                                            <span>Firstname: <br>MUSODIQ</span>
+                                            <span>Lastname: <br>ADEYEMO</span>
+                                            <span>Email: <br>muso@gmail.com</span>
+                                            <span>phone: <br>+2348141171294</span>
+                                            <span>Grade: <br>AVERAGE</span>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="group">
+                                <td class="pic">
+                                    <img  src="ALIMOT.png">
+                                    <div>
+                                        <p>ADEYEMO A.S</p>
+                                        <p>alimotu@gmail.com</p>
+                                    </div>
+                                </td>
+                                <td>4243AD</td>
+                                <td>Frontend</td>
+                                <td>
+                                    <button id="active">Active</button>
+                                </td>
+                                <td id="rate"></td>
+                                <td>
+                                    <div class="view">
+                                        <button id="view8">View</button>
+                                        <div id="views8">
+                                            <span>Firstname: <br>ALIMOT</span>
+                                            <span>Lastname: <br>ADEYEMO</span>
+                                            <span>Email: <br>alimot@gmail.com</span>
+                                            <span>phone: <br>+2348028131219</span>
+                                            <span>Grade: <br>HIGH</span>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="group">
+                                <td class="pic">
+                                    <img  src="JELILAT.png">
+                                    <div>
+                                        <p>ADEYEMO J.O</p>
+                                        <p>ollyinkus@gmail.com</p>
+                                    </div>
+                                </td>
+                                <td>4244AD</td>
+                                <td>Cloud</td>
+                                <td>
+                                    <button id="active">Active</button>
+                                </td>
+                                <td id="rate"></td>
+                                <td>
+                                    <div class="view">
+                                        <button id="view9">View</button>
+                                        <div id="views9">
+                                            <span>Firstname: <br>JELILAT</span>
+                                            <span>Lastname: <br>ADEYEMO</span>
+                                            <span>Email: <br>olly@gmail.com</span>
+                                            <span>phone: <br>+2349043477626</span>
+                                            <span>Grade: <br>HIGH</span>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="group">
+                                <td class="pic">
+                                    <img  src="MUJEEBAT.png">
+                                    <div>
+                                        <p>ADEYEMO M.A</p>
+                                        <p>mujeebat@gmail.com</p>
+                                    </div>
+                                </td>
+                                <td>4245AD</td>
+                                <td>Backend</td>
+                                <td>
+                                    <button id="active">Active</button>
+                                </td>
+                                <td id="rate1"></td>
+                                <td>
+                                    <div class="view">
+                                        <button id="view10">View</button>
+                                        <div id="views10">
+                                            <span>Firstname: <br>MUJEEBAT</span>
+                                            <span>Lastname: <br>ADEYEMO</span>
+                                            <span>Email: <br>mjbt@gmail.com</span>
+                                            <span>phone: <br>+2349085182508</span>
+                                            <span>Grade: <br>AVERAGE</span>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="group">
+                                <td class="pic">
+                                    <img  src="MUJEEB.png">
+                                    <div>
+                                        <p>ADEYEMO M.K</p>
+                                        <p>mujeeb@gmail.com</p>
+                                    </div>
+                                </td>
+                                <td>4246AD</td>
+                                <td>Frontend</td>
+                                <td>
+                                    <button id="active">Active</button>
+                                </td>
+                                <td id="rate"></td>
+                                <td>
+                                    <div class="view">
+                                        <button id="view11">View</button>
+                                        <div id="views11">
+                                            <span>Firstname:<br> MUJEEB</span>
+                                            <span>Lastname: <br>ADEYEMO</span>
+                                            <span>Email: <br>mjb@gmail.com</span>
+                                            <span>phone: <br>+2349014282005</span>
+                                            <span>Grade:<br> HIGH</span>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="group">
+                                <td class="pic">
+                                    <img  src="ISMAIL.png">
+                                    <div>
+                                        <p>ALIMI I.B</p>
+                                        <p>ismail@gmail.com</p>
+                                    </div>
+                                </td>
+                                <td>4247AD</td>
+                                <td>Backend</td>
+                                <td>
+                                    <button id="active">Active</button>
+                                </td>
+                                <td id="rate2"></td>
+                                <td>
+                                    <div class="view">
+                                        <button id="view12">View</button>
+                                        <div id="views12">
+                                            <span>Firstname: <br>ISMAIL</span>
+                                            <span>Lastname: <br>ALIMI</span>
+                                            <span>Email: <br>usu@gmail.com</span>
+                                            <span>phone: <br>+2348141171294</span>
+                                            <span>Grade: <br>LOW</span>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+
+            <section id="profile">
+                <h1>PROFILE</h1>
+                <div class="profile">
+                    <div class="profile-container" id="pc1">
+                        <div class="pimage">
+                            <img src="MUSODIQ.png" alt="muso">
+                        </div>
+                        <h3>ADEYEMO M.O</h3>
+                        <h3>Backend</h3>
+                        <div class="semester">
+                            <h2>F.S</h2>
+                            <h2>S.S</h2>
+                            <h2>T.S</h2>
+                        </div>
+                        <div class="semester">
+                            <h2>100%</h2>
+                            <h2>90%</h2>
+                            <h2>70%</h2>
+                        </div>
+                        <div class="rate">
+                            <div id="rate4"></div>
+                        </div>
+                        <button id="PD1">Profile Details</button>
+                        <div id="span1">
+                            <span>Firstname: Musodiq</span>
+                            <span>Middlename: Olalekan</span>
+                            <span>Lastname: Adeyemo</span>
+                            <span>Email: muso@gmail.com</span>
+                            <span>Phone: +2348141171294</span>
+                            <span>Track: Backend Engineer</span>
+                            <span>Age: 27</span>
+                            <span>Grade: High</span>
+                        </div>
+                    </div>
+
+                    <div class="profile-container" id="pc2">
+                        <div class="pimage">
+                            <img src="ALIMOT.png" alt="muso">
+                        </div>
+                        <h3>ADEYEMO A.S</h3>
+                        <h3>Frontend</h3>
+                        <div class="semester">
+                            <h2>F.S</h2>
+                            <h2>S.S</h2>
+                            <h2>T.S</h2>
+                        </div>
+                        <div class="semester">
+                            <h2>90%</h2>
+                            <h2>80%</h2>
+                            <h2>75%</h2>
+                        </div>
+                        <div class="rate">
+                            <div id="rate5"></div>
+                        </div>
+                        <button id="PD2">Profile Details</button>
+                        <div id="span2">
+                            <span>Firstname: Alimot</span>
+                            <span>Middlename: Sadai</span>
+                            <span>Lastname: Adeyemo</span>
+                            <span>Email: alimotu@gmail.com</span>
+                            <span>Phone: +2348028131219</span>
+                            <span>Track: Frontend Engineer</span>
+                            <span>Age: 47</span>
+                            <span>Grade: Average</span>
+                        </div>
+                    </div>
+
+                    <div class="profile-container" id="pc3">
+                        <div class="pimage">
+                            <img src="JELILAT.png" alt="muso">
+                        </div>
+                        <h3>ADEYEMO J.O</h3>
+                        <h3>Cloud</h3>
+                        <div class="semester">
+                            <h2>F.S</h2>
+                            <h2>S.S</h2>
+                            <h2>T.S</h2>
+                        </div>
+                        <div class="semester">
+                            <h2>50%</h2>
+                            <h2>40%</h2>
+                            <h2>30%</h2>
+                        </div>
+                        <div class="rate">
+                            <div id="rate6"></div>
+                        </div>
+                        <button id="PD3">Profile Details</button>
+                        <div id="span3">
+                            <span>Firstname: Jelilat</span>
+                            <span>Middlename: Olayinka</span>
+                            <span>Lastname: Adeyemo</span>
+                            <span>Email: olly@gmail.com</span>
+                            <span>Phone: +2348141171294</span>
+                            <span>Track: Cloud Engineer</span>
+                            <span>Age: 29</span>
+                            <span>Grade: Low</span>
+                        </div>
+                    </div>
+
+                    <div class="profile-container" id="pc4">
+                        <div class="pimage">
+                            <img src="MUJEEBAT.png" alt="muso">
+                        </div>
+                        <h3>ADEYEMO M.A</h3>
+                        <h3>Backend</h3>
+                        <div class="semester">
+                            <h2>F.S</h2>
+                            <h2>S.S</h2>
+                            <h2>T.S</h2>
+                        </div>
+                        <div class="semester">
+                            <h2>100%</h2>
+                            <h2>70%</h2>
+                            <h2>60%</h2>
+                        </div>
+                        <div class="rate">
+                            <div id="rate5"></div>
+                        </div>
+                        <button id="PD4">Profile Details</button>
+                        <div id="span4">
+                            <span>Firstname: Mujeebat</span>
+                            <span>Middlename: Adeola</span>
+                            <span>Lastname: Adeyemo</span>
+                            <span>Email: mjbt@gmail.com</span>
+                            <span>Phone: +2348141171294</span>
+                            <span>Track: Backend Engineer</span>
+                            <span>Age: 21</span>
+                            <span>Grade: Average</span>
+                        </div>
+                    </div>
+
+                    <div class="profile-container" id="pc5">
+                        <div class="pimage">
+                            <img src="MUJEEB.png" alt="muso">
+                        </div>
+                        <h3>ADEYEMO M.K</h3>
+                        <h3>frontend</h3>
+                        <div class="semester">
+                            <h2>F.S</h2>
+                            <h2>S.S</h2>
+                            <h2>T.S</h2>
+                        </div>
+                        <div class="semester">
+                            <h2>100%</h2>
+                            <h2>70%</h2>
+                            <h2>70%</h2>
+                        </div>
+                        <div class="rate">
+                            <div id="rate5"></div>
+                        </div>
+                        <button id="PD5">Profile Details</button>
+                        <div id="span5">
+                            <span>Firstname: Mujeeb</span>
+                            <span>Middlename: Kolawole</span>
+                            <span>Lastname: Adeyemo</span>
+                            <span>Email: mjb@gmail.com</span>
+                            <span>Phone: +2348141171294</span>
+                            <span>Track: frontend Engineer</span>
+                            <span>Age: 17</span>
+                            <span>Grade: Average</span>
+                        </div>
+                    </div>
+
+                    <div class="profile-container" id="pc6">
+                        <div class="pimage">
+                            <img src="ISMAIL.png" alt="muso">
+                        </div>
+                        <h3>ALIMI I.B</h3>
+                        <h3>Frontend</h3>
+                        <div class="semester">
+                            <h2>F.S</h2>
+                            <h2>S.S</h2>
+                            <h2>T.S</h2>
+                        </div>
+                        <div class="semester">
+                            <h2>100%</h2>
+                            <h2>85%</h2>
+                            <h2>75%</h2>
+                        </div>
+                        <div class="rate">
+                            <div id="rate4"></div>
+                        </div>
+                        <button id="PD6">Profile Details</button>
+                        <div id="span6">
+                            <span>Firstname: Ismail</span>
+                            <span>Middlename: Babatunde</span>
+                            <span>Lastname: Alimi</span>
+                            <span>Email: usu@gmail.com</span>
+                            <span>Phone: +2348141171294</span>
+                            <span>Track: frontend Engineer</span>
+                            <span>Age: 27</span>
+                            <span>Grade: High</span>
+                        </div>
+                    </div>
+
+                    <div class="profile-container" id="pc7">
+                        <div class="pimage">
+                            <img src="MUSODIQ.png" alt="muso">
+                        </div>
+                        <h3>ADEYEMO M.O</h3>
+                        <h3>Cloud</h3>
+                        <div class="semester">
+                            <h2>F.S</h2>
+                            <h2>S.S</h2>
+                            <h2>T.S</h2>
+                        </div>
+                        <div class="semester">
+                            <h2>80%</h2>
+                            <h2>60%</h2>
+                            <h2>70%</h2>
+                        </div>
+                        <div class="rate">
+                            <div id="rate5"></div>
+                        </div>
+                        <button id="PD7">Profile Details</button>
+                        <div id="span7">
+                            <span>Firstname: Musodiq</span>
+                            <span>Middlename: Olalekan</span>
+                            <span>Lastname: Adeyemo</span>
+                            <span>Email: muso@gmail.com</span>
+                            <span>Phone: +2348141171294</span>
+                            <span>Track: Backend Engineer</span>
+                            <span>Age: 27</span>
+                            <span>Grade: Average</span>
+                        </div>
+                    </div>
+
+                    <div class="profile-container" id="pc8">
+                        <div class="pimage">
+                            <img src="ALIMOT.png" alt="muso">
+                        </div>
+                        <h3>ADEYEMO A.S</h3>
+                        <h3>Frontend</h3>
+                        <div class="semester">
+                            <h2>F.S</h2>
+                            <h2>S.S</h2>
+                            <h2>T.S</h2>
+                        </div>
+                        <div class="semester">
+                            <h2>100%</h2>
+                            <h2>80%</h2>
+                            <h2>75%</h2>
+                        </div>
+                        <div class="rate">
+                            <div id="rate4"></div>
+                        </div>
+                        <button id="PD8">Profile Details</button>
+                        <div id="span8">
+                            <span>Firstname: Alimot</span>
+                            <span>Middlename: Sadai</span>
+                            <span>Lastname: Adeyemo</span>
+                            <span>Email: alimotu@gmail.com</span>
+                            <span>Phone: +2348028131219</span>
+                            <span>Track: Frontend Engineer</span>
+                            <span>Age: 47</span>
+                            <span>Grade: High</span>
+                        </div>
+                    </div>
+
+                    <div class="profile-container" id="pc9">
+                        <div class="pimage">
+                            <img src="JELILAT.png" alt="muso">
+                        </div>
+                        <h3>ADEYEMO J.O</h3>
+                        <h3>Cloud</h3>
+                        <div class="semester">
+                            <h2>F.S</h2>
+                            <h2>S.S</h2>
+                            <h2>T.S</h2>
+                        </div>
+                        <div class="semester">
+                            <h2>100%</h2>
+                            <h2>80%</h2>
+                            <h2>70%</h2>
+                        </div>
+                        <div class="rate">
+                            <div id="rate4"></div>
+                        </div>
+                        <button id="PD9">Profile Details</button>
+                        <div id="span9">
+                            <span>Firstname: Jelilat</span>
+                            <span>Middlename: Olayinka</span>
+                            <span>Lastname: Adeyemo</span>
+                            <span>Email: olly@gmail.com</span>
+                            <span>Phone: +2348141171294</span>
+                            <span>Track: Cloud Engineer</span>
+                            <span>Age: 29</span>
+                            <span>Grade: High</span>
+                        </div>
+                    </div>
+
+                    <div class="profile-container" id="pc10">
+                        <div class="pimage">
+                            <img src="MUJEEBAT.png" alt="muso">
+                        </div>
+                        <h3>ADEYEMO M.A</h3>
+                        <h3>Backend</h3>
+                        <div class="semester">
+                            <h2>F.S</h2>
+                            <h2>S.S</h2>
+                            <h2>T.S</h2>
+                        </div>
+                        <div class="semester">
+                            <h2>90%</h2>
+                            <h2>90%</h2>
+                            <h2>60%</h2>
+                        </div>
+                        <div class="rate">
+                            <div id="rate5"></div>
+                        </div>
+                        <button id="PD10">Profile Details</button>
+                        <div id="span10">
+                            <span>Firstname: Mujeebat</span>
+                            <span>Middlename: Adeola</span>
+                            <span>Lastname: Adeyemo</span>
+                            <span>Email: mjbt@gmail.com</span>
+                            <span>Phone: +2348141171294</span>
+                            <span>Track: Backend Engineer</span>
+                            <span>Age: 21</span>
+                            <span>Grade: Average</span>
+                        </div>
+                    </div>
+
+                    <div class="profile-container" id="pc11">
+                        <div class="pimage">
+                            <img src="MUJEEB.png" alt="muso">
+                        </div>
+                        <h3>ADEYEMO M.K</h3>
+                        <h3>frontend</h3>
+                        <div class="semester">
+                            <h2>F.S</h2>
+                            <h2>S.S</h2>
+                            <h2>T.S</h2>
+                        </div>
+                        <div class="semester">
+                            <h2>100%</h2>
+                            <h2>90%</h2>
+                            <h2>70%</h2>
+                        </div>
+                        <div class="rate">
+                            <div id="rate4"></div>
+                        </div>
+                        <button id="PD11">Profile Details</button>
+                        <div id="span11">
+                            <span>Firstname: Mujeeb</span>
+                            <span>Middlename: Kolawole</span>
+                            <span>Lastname: Adeyemo</span>
+                            <span>Email: mjb@gmail.com</span>
+                            <span>Phone: +2348141171294</span>
+                            <span>Track: frontend Engineer</span>
+                            <span>Age: 17</span>
+                            <span>Grade: High</span>
+                        </div>
+                    </div>
+
+                    <div class="profile-container" id="pc12">
+                        <div class="pimage">
+                            <img src="ISMAIL.png" alt="muso">
+                        </div>
+                        <h3>ALIMI I.B</h3>
+                        <h3>Backend</h3>
+                        <div class="semester">
+                            <h2>F.S</h2>
+                            <h2>S.S</h2>
+                            <h2>T.S</h2>
+                        </div>
+                        <div class="semester">
+                            <h2>60%</h2>
+                            <h2>50%</h2>
+                            <h2>35%</h2>
+                        </div>
+                        <div class="rate">
+                            <div id="rate6"></div>
+                        </div>
+                        <button id="PD12">Profile Details</button>
+                        <div id="span12">
+                            <span>Firstname: Ismail</span>
+                            <span>Middlename: Babatunde</span>
+                            <span>Lastname: Alimi</span>
+                            <span>Email: usu@gmail.com</span>
+                            <span>Phone: +2348141171294</span>
+                            <span>Track: Backend Engineer</span>
+                            <span>Age: 27</span>
+                            <span>Grade: Low</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="attendance">
+                <h1>ATTENDANCE</h1>
+                <div class="table1">
+                    <h3>ATTENDANCE LIST</h3>
+                    <table class="attend">
+                        <thead class="head1">
+                            <tr id="head1">
+                                <th>Name</th>
+                                <th>ID</th>
+                                <th>Track</th>
+                                <th>Live Class</th>
+                                <th>Town Hall</th>
+                                <th>LMS</th>
+                                <th>C.Avg</th>
+                                <th>Rate</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="group1">
+                                <td>Adeyemo Musodiq</td>
+                                <td>4236AD</td>
+                                <td>Backend</td>
+                                <td>
+                                    <p>FS: 100%</p>
+                                    <p>SS: 90%</p>
+                                    <p>TS: 90%</p>
+                                    <p>AVG: 93%</p>
+                                </td>
+                                <td>
+                                    <p>FS: 95%</p>
+                                    <p>SS: 100%</p>
+                                    <p>TS: 94%</p>
+                                    <p>AVG: 96%</p>
+                                </td>
+                                <td>
+                                    <p>FS:100%</p>
+                                    <p>SS: 100%</p>
+                                    <p>TS: 100%</p>
+                                    <p>AVG: 100%</p>
+                                </td>
+                                <td>96%</td>
+                                <td id="rates"></td>
+                            </tr>
+                            <tr class="group1">
+                                <td>Adeyemo Alimot</td>
+                                <td>4237AD</td>
+                                <td>Frontend</td>
+                                <td>
+                                    <p>FS: 90%</p>
+                                    <p>SS: 80%</p>
+                                    <p>TS: 70%</p>
+                                    <p>AVG: 80%</p>
+                                </td>
+                                <td>
+                                    <p>FS: 80%</p>
+                                    <p>SS: 70%</p>
+                                    <p>TS: 60%</p>
+                                    <p>AVG: 70%</p>
+                                </td>
+                                <td>
+                                    <p>FS:90%</p>
+                                    <p>SS: 90%</p>
+                                    <p>TS: 80%</p>
+                                    <p>AVG: 87%</p>
+                                </td>
+                                <td>79%</td>
+                                <td id="rates1"></td>
+                            </tr>
+                            <tr class="group1">
+                                <td>Adeyemo Jelilat</td>
+                                <td>4238AD</td>
+                                <td>Cloud</td>
+                                <td>
+                                    <p>FS: 50%</p>
+                                    <p>SS: 50%</p>
+                                    <p>TS: 50%</p>
+                                    <p>AVG: 50%</p>
+                                </td>
+                                <td>
+                                    <p>FS: 40%</p>
+                                    <p>SS: 45%</p>
+                                    <p>TS: 50%</p>
+                                    <p>AVG: 45%</p>
+                                </td>
+                                <td>
+                                    <p>FS:40%</p>
+                                    <p>SS: 40%</p>
+                                    <p>TS: 50%</p>
+                                    <p>AVG: 43%</p>
+                                </td>
+                                <td>46%</td>
+                                <td id="rates2"></td>
+                            </tr>
+                            <tr class="group1">
+                                <td>Adeyemo Mujeebat</td>
+                                <td>4239AD</td>
+                                <td>Backend</td>
+                                <td>
+                                    <p>FS: 80%</p>
+                                    <p>SS: 70%</p>
+                                    <p>TS: 85%</p>
+                                    <p>AVG: 78%</p>
+                                </td>
+                                <td>
+                                    <p>FS: 95%</p>
+                                    <p>SS: 70%</p>
+                                    <p>TS: 70%</p>
+                                    <p>AVG: 78%</p>
+                                </td>
+                                <td>
+                                    <p>FS:80%</p>
+                                    <p>SS: 70%</p>
+                                    <p>TS: 65%</p>
+                                    <p>AVG: 72%</p>
+                                </td>
+                                <td>76%</td>
+                                <td id="rates1"></td>
+                            </tr>
+                            <tr class="group1">
+                                <td>Adeyemo Mujeeb</td>
+                                <td>4240AD</td>
+                                <td>Frontend</td>
+                                <td>
+                                    <p>FS: 70%</p>
+                                    <p>SS: 80%</p>
+                                    <p>TS: 60%</p>
+                                    <p>AVG: 70%</p>
+                                </td>
+                                <td>
+                                    <p>FS: 95%</p>
+                                    <p>SS: 70%</p>
+                                    <p>TS: 75%</p>
+                                    <p>AVG: 80%</p>
+                                </td>
+                                <td>
+                                    <p>FS:60%</p>
+                                    <p>SS: 70%</p>
+                                    <p>TS: 70%</p>
+                                    <p>AVG: 67%</p>
+                                </td>
+                                <td>72%</td>
+                                <td id="rates1"></td>
+                            </tr>
+                            <tr class="group1">
+                                <td>Alimi Ismail</td>
+                                <td>4241AD</td>
+                                <td>frontend</td>
+                                <td>
+                                    <p>FS: 90%</p>
+                                    <p>SS: 90%</p>
+                                    <p>TS: 90%</p>
+                                    <p>AVG: 90%</p>
+                                </td>
+                                <td>
+                                    <p>FS: 95%</p>
+                                    <p>SS: 100%</p>
+                                    <p>TS: 90%</p>
+                                    <p>AVG: 95%</p>
+                                </td>
+                                <td>
+                                    <p>FS:90%</p>
+                                    <p>SS: 95%</p>
+                                    <p>TS: 95%</p>
+                                    <p>AVG: 93%</p>
+                                </td>
+                                <td>93%</td>
+                                <td id="rates"></td>
+                            </tr>
+                            <tr class="group1">
+                                <td>Adeyemo Musodiq</td>
+                                <td>4242AD</td>
+                                <td>Cloud</td>
+                                <td>
+                                    <p>FS: 90%</p>
+                                    <p>SS: 80%</p>
+                                    <p>TS: 80%</p>
+                                    <p>AVG: 83%</p>
+                                </td>
+                                <td>
+                                    <p>FS: 85%</p>
+                                    <p>SS: 90%</p>
+                                    <p>TS: 70%</p>
+                                    <p>AVG: 82%</p>
+                                </td>
+                                <td>
+                                    <p>FS: 70%</p>
+                                    <p>SS: 75%</p>
+                                    <p>TS: 70%</p>
+                                    <p>AVG: 72%</p>
+                                </td>
+                                <td>79%</td>
+                                <td id="rates1"></td>
+                            </tr>
+                            <tr class="group1">
+                                <td>Adeyemo Alimot</td>
+                                <td>4243AD</td>
+                                <td>Frontend</td>
+                                <td>
+                                    <p>FS: 90%</p>
+                                    <p>SS: 90%</p>
+                                    <p>TS: 90%</p>
+                                    <p>AVG: 90%</p>
+                                </td>
+                                <td>
+                                    <p>FS: 90%</p>
+                                    <p>SS: 95%</p>
+                                    <p>TS: 90%</p>
+                                    <p>AVG: 92%</p>
+                                </td>
+                                <td>
+                                    <p>FS:90%</p>
+                                    <p>SS: 90%</p>
+                                    <p>TS: 80%</p>
+                                    <p>AVG: 87%</p>
+                                </td>
+                                <td>90%</td>
+                                <td id="rates"></td>
+                            </tr>
+                            <tr class="group1">
+                                <td>Adeyemo Jelilat</td>
+                                <td>4244AD</td>
+                                <td>Cloud</td>
+                                <td>
+                                    <p>FS: 100%</p>
+                                    <p>SS: 90%</p>
+                                    <p>TS: 95%</p>
+                                    <p>AVG: 95%</p>
+                                </td>
+                                <td>
+                                    <p>FS: 90%</p>
+                                    <p>SS: 95%</p>
+                                    <p>TS: 95%</p>
+                                    <p>AVG: 93%</p>
+                                </td>
+                                <td>
+                                    <p>FS: 100%</p>
+                                    <p>SS: 80%</p>
+                                    <p>TS: 90%</p>
+                                    <p>AVG: 90%</p>
+                                </td>
+                                <td>93%</td>
+                                <td id="rates"></td>
+                            </tr>
+                            <tr class="group1">
+                                <td>Adeyemo Mujeebat</td>
+                                <td>4239AD</td>
+                                <td>Backend</td>
+                                <td>
+                                    <p>FS: 70%</p>
+                                    <p>SS: 80%</p>
+                                    <p>TS: 85%</p>
+                                    <p>AVG: 78%</p>
+                                </td>
+                                <td>
+                                    <p>FS: 70%</p>
+                                    <p>SS: 70%</p>
+                                    <p>TS: 95%</p>
+                                    <p>AVG: 78%</p>
+                                </td>
+                                <td>
+                                    <p>FS: 72%</p>
+                                    <p>SS: 72%</p>
+                                    <p>TS: 72%</p>
+                                    <p>AVG: 72%</p>
+                                </td>
+                                <td>76%</td>
+                                <td id="rates1"></td>
+                            </tr>
+                            <tr class="group1">
+                                <td>Adeyemo Mujeeb</td>
+                                <td>4245AD</td>
+                                <td>Frontend</td>
+                                <td>
+                                    <p>FS: 70%</p>
+                                    <p>SS: 80%</p>
+                                    <p>TS: 90%</p>
+                                    <p>AVG: 80%</p>
+                                </td>
+                                <td>
+                                    <p>FS: 95%</p>
+                                    <p>SS: 80%</p>
+                                    <p>TS: 85%</p>
+                                    <p>AVG: 87%</p>
+                                </td>
+                                <td>
+                                    <p>FS: 90%</p>
+                                    <p>SS: 97%</p>
+                                    <p>TS: 90%</p>
+                                    <p>AVG: 92%</p>
+                                </td>
+                                <td>86%</td>
+                                <td id="rates1"></td>
+                            </tr>
+                            <tr class="group1">
+                                <td>Alimi Ismail</td>
+                                <td>4246AD</td>
+                                <td>frontend</td>
+                                <td>
+                                    <p>FS: 60%</p>
+                                    <p>SS: 50%</p>
+                                    <p>TS: 40%</p>
+                                    <p>AVG: 50%</p>
+                                </td>
+                                <td>
+                                    <p>FS: 45%</p>
+                                    <p>SS: 40%</p>
+                                    <p>TS: 40%</p>
+                                    <p>AVG: 42%</p>
+                                </td>
+                                <td>
+                                    <p>FS: 50%</p>
+                                    <p>SS: 30%</p>
+                                    <p>TS: 30%</p>
+                                    <p>AVG: 37%</p>
+                                </td>
+                                <td>43%</td>
+                                <td id="rates2"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <section id="track">
+                <h1>TRACK</h1>
+                <div class="track-container">
+                    <div class="frontend">
+                        <div class="add">
+                            <h3>Frontend Engineering</h3>
+                        </div>
+                        <div class="photo">
+                            <img src="FRONTEND.png" alt="frontend">
+                        </div>
+                        <div class="detail">
+                            <p> <b>Detail:</b> Front-end web development,also known as client-side development is the practice of producing HTML,CSS and Javascript for a website or web Application so that a user can see and interact with them directly.</p>
+                        </div>
+                        <div class="language">
+                            <h5><b>Language:</b> HTML, CSS, Javascript, Node.js etc</h5>
+                        </div>
+                        <div class="fe">
+                            <button href="#">Register</button>
+                        </div>
+                    </div>
+                    <div class="backend">
+                        <div class="add">
+                            <h3>Backend Engineering</h3>
+                        </div>
+                        <div class="photo">
+                            <img src="BACKEND.png" alt="frontend">
+                        </div>
+                        <div class="detail">
+                            <p> <b>Detail:</b> The Backend of a website is a combination of technology and programming that power a website. Its consists of three parts that a user never sees: a server, an application, and a database.</p>
+                        </div>
+                        <div class="language">
+                            <h5><b>Language:</b> PHP, Ruby, Python, Java etc</h5>
+                        </div>
+                        <div class="fe">
+                            <button href="#">Register</button>
+                        </div>
+                    </div>
+                    <div class="cloud">
+                        <div class="add">
+                            <h3>Cloud Engineering</h3>
+                        </div>
+                        <div class="photo">
+                            <img src="CLOUD.png" alt="frontend">
+                        </div>
+                        <div class="detail">
+                            <p> <b>Detail:</b> Cloud computing is the delivery of computing resources as a service. Moving to the cloud basically means that the resources are owned and managed by a third-party provider, instead of the end-user.</p>
+                        </div>
+                        <div class="language">
+                            <h5><b>Language:</b> NET, Golang, python, PHP etc</h5>
+                        </div>
+                        <div class="fe">
+                            <button href="#">Register</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="course">
+                <h1>COURSE</h1>
+                <div class="course-container">
+                    <h5 id="active1">In Progress</h5>
+                    <h5>Explore</h5>
+                    <h5>Incoming</h5>
+                    <h5>Finished</h5>
+                </div>
+                <div class="fe-container">
+                    <h2>Frontend Engineering</h2>
+                    <div class="fe-contain">
+                        <div class="html">
+                            <img src="HTML.png" alt="html">
+                            <div class="htl">
+                                <h2>HTML</h2>
+                                <h2 id="pg">80%-progress</h2>
+                                <button>Continue</button>
+                            </div>
+                        </div>
+                        <div class="css">
+                            <img src="CSS.png" alt="css">
+                            <div class="htl">
+                                <h2>CSS</h2>
+                                <h2 id="pg">70%-progress</h2>
+                                <button>Continue</button>
+                            </div>
+                        </div>
+                        <div class="js">
+                            <img src="JAVASCRIPT.jpeg" alt="html">
+                            <div class="htl">
+                                <h2>JAVASCRIPT<h2>
+                                <h2 id="pg">60%-progress</h2>
+                                <button>Continue</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="fe-container">
+                    <h2 id="back">Backend Engineering</h2>
+                    <div class="fe-contain">
+                        <div class="python">
+                            <img src="PYTHON.png" alt="python">
+                            <div class="htl">
+                                <h2>PYTHON</h2>
+                                <h2 id="pg1">50%-progress</h2>
+                                <button>Continue</button>
+                            </div>
+                        </div>
+                        <div class="php">
+                            <img src="PHP.png" alt="php">
+                            <div class="htl">
+                                <h2>PHP</h2>
+                                <h2 id="pg1">60%-progress</h2>
+                                <button>Continue</button>
+                            </div>
+                        </div>
+                        <div class="go">
+                            <img src="GO.png" alt="GO">
+                            <div class="htl">
+                                <h2>GOLANG<h2>
+                                <h2 id="pg1">40%-progress</h2>
+                                <button>Continue</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="fe-container">
+                    <h2 id="cloud">Cloud Engineering</h2>
+                    <div class="fe-contain">
+                        <div class="java">
+                            <img src="JAVA.png" alt="java">
+                            <div class="htl">
+                                <h2>JAVA</h2>
+                                <h2 id="pg2">90%-progress</h2>
+                                <button>Continue</button>
+                            </div>
+                        </div>
+                        <div class="ruby">
+                            <img src="RUBY.jpeg" alt="ruby">
+                            <div class="htl">
+                                <h2>RUBY</h2>
+                                <h2 id="pg2">80%-progress</h2>
+                                <button>Continue</button>
+                            </div>
+                        </div>
+                        <div class="net">
+                            <img src="NET.jpeg" alt="net">
+                            <div class="htl">
+                                <h2>NET<h2>
+                                <h2 id="pg2">70%-progress</h2>
+                                <button>Continue</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="grade">
+                <h1>GRADE</h1>
+                <div class="grade-container">
+                    <h2>First Semester</h2>
+                    <table>
+                        <thead>
+                            <tr id="heading">
+                                <th>Name</th>
+                                <th>Track</th>
+                                <th>Attendace <br> (10)</th>
+                                <th>Engagement <br> (5)</th>
+                                <th>Task 1 <br> (16)</th>
+                                <th>Task 2 <br> (24)</th>
+                                <th>LMS <br> (5)</th>
+                                <th>Exam <br> (40)</th>
+                                <th>Total <br> (100)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr id="bodyh">
+                                <td>ADEYEMO M.O</td>
+                                <td>Backend</td>
+                                <td>10</td>
+                                <td>5</td>
+                                <td>16</td>
+                                <td>24</td>
+                                <td>5</td>
+                                <td>36.5</td>
+                                <td>97.5%</td>
+                            </tr>
+                            <tr id="bodyh">
+                                <td>ADEYEMO A.S</td>
+                                <td>Frontend</td>
+                                <td>9</td>
+                                <td>4</td>
+                                <td>8</td>
+                                <td>12</td>
+                                <td>5</td>
+                                <td>34.5</td>
+                                <td>72.5%</td>
+                            </tr>
+                            <tr id="bodyh">
+                                <td>ADEYEMO J.O</td>
+                                <td>Cloud</td>
+                                <td>4</td>
+                                <td>4</td>
+                                <td>8</td>
+                                <td>3</td>
+                                <td>3</td>
+                                <td>18.5</td>
+                                <td>40.5%</td>
+                            </tr>
+                            <tr id="bodyh">
+                                <td>ADEYEMO M.A</td>
+                                <td>Backend</td>
+                                <td>8</td>
+                                <td>5</td>
+                                <td>4</td>
+                                <td>20</td>
+                                <td>5</td>
+                                <td>30.0</td>
+                                <td>72.0%</td>
+                            </tr>
+                            <tr id="bodyh">
+                                <td>ADEYEMO M.K</td>
+                                <td>Frontend</td>
+                                <td>9</td>
+                                <td>5</td>
+                                <td>6</td>
+                                <td>18</td>
+                                <td>5</td>
+                                <td>32.5</td>
+                                <td>75.5%</td>
+                            </tr>
+                            <tr id="bodyh">
+                                <td>ALIMI I.B</td>
+                                <td>Frontend</td>
+                                <td>10</td>
+                                <td>5</td>
+                                <td>16</td>
+                                <td>24</td>
+                                <td>4</td>
+                                <td>30.8</td>
+                                <td>89.8%</td>
+                            </tr>
+                            <tr id="bodyh">
+                                <td>ADEYEMO M.O</td>
+                                <td>Cloud</td>
+                                <td>7</td>
+                                <td>5</td>
+                                <td>12</td>
+                                <td>18</td>
+                                <td>5</td>
+                                <td>30.5</td>
+                                <td>77.5%</td>
+                            </tr>
+                            <tr id="bodyh">
+                                <td>ADEYEMO A.S</td>
+                                <td>Frontend</td>
+                                <td>9</td>
+                                <td>5</td>
+                                <td>16</td>
+                                <td>24</td>
+                                <td>5</td>
+                                <td>34.5</td>
+                                <td>93.5%</td>
+                            </tr>
+                            <tr id="bodyh">
+                                <td>ADEYEMO J.O</td>
+                                <td>Cloud</td>
+                                <td>9</td>
+                                <td>4</td>
+                                <td>16</td>
+                                <td>20</td>
+                                <td>5</td>
+                                <td>38.5</td>
+                                <td>92.5%</td>
+                            </tr>
+                            <tr id="bodyh">
+                                <td>ADEYEMO M.A</td>
+                                <td>Backend</td>
+                                <td>8</td>
+                                <td>5</td>
+                                <td>12</td>
+                                <td>15</td>
+                                <td>5</td>
+                                <td>30.5</td>
+                                <td>75.5%</td>
+                            </tr>
+                            <tr id="bodyh">
+                                <td>ADEYEMO M.K</td>
+                                <td>Frontend</td>
+                                <td>9</td>
+                                <td>5</td>
+                                <td>12</td>
+                                <td>24</td>
+                                <td>5</td>
+                                <td>32.5</td>
+                                <td>87.5%</td>
+                            </tr>
+                            <tr id="bodyh">
+                                <td>ALIMI I.B</td>
+                                <td>Backend</td>
+                                <td>5</td>
+                                <td>3</td>
+                                <td>6</td>
+                                <td>8</td>
+                                <td>2</td>
+                                <td>18.5</td>
+                                <td>42.5%</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="grade-container">
+                    <h2>Second Semester</h2>
+                    <table>
+                        <thead>
+                            <tr id="heading">
+                                <th>Name</th>
+                                <th>Track</th>
+                                <th>Attendace <br> (10)</th>
+                                <th>Engagement <br> (5)</th>
+                                <th>Task 1 <br> (16)</th>
+                                <th>Task 2 <br> (24)</th>
+                                <th>LMS <br> (5)</th>
+                                <th>Exam <br> (40)</th>
+                                <th>Total <br> (100)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr id="bodyh">
+                                <td>ADEYEMO M.O</td>
+                                <td>Backend</td>
+                                <td>10</td>
+                                <td>5</td>
+                                <td>16</td>
+                                <td>24</td>
+                                <td>5</td>
+                                <td>36.5</td>
+                                <td>97.5%</td>
+                            </tr>
+                            <tr id="bodyh">
+                                <td>ADEYEMO A.S</td>
+                                <td>Frontend</td>
+                                <td>9</td>
+                                <td>4</td>
+                                <td>8</td>
+                                <td>12</td>
+                                <td>5</td>
+                                <td>34.5</td>
+                                <td>72.5%</td>
+                            </tr>
+                            <tr id="bodyh">
+                                <td>ADEYEMO J.O</td>
+                                <td>Cloud</td>
+                                <td>4</td>
+                                <td>4</td>
+                                <td>8</td>
+                                <td>3</td>
+                                <td>3</td>
+                                <td>18.5</td>
+                                <td>40.5%</td>
+                            </tr>
+                            <tr id="bodyh">
+                                <td>ADEYEMO M.A</td>
+                                <td>Backend</td>
+                                <td>8</td>
+                                <td>5</td>
+                                <td>4</td>
+                                <td>20</td>
+                                <td>5</td>
+                                <td>30.0</td>
+                                <td>72.0%</td>
+                            </tr>
+                            <tr id="bodyh">
+                                <td>ADEYEMO M.K</td>
+                                <td>Frontend</td>
+                                <td>9</td>
+                                <td>5</td>
+                                <td>6</td>
+                                <td>18</td>
+                                <td>5</td>
+                                <td>32.5</td>
+                                <td>75.5%</td>
+                            </tr>
+                            <tr id="bodyh">
+                                <td>ALIMI I.B</td>
+                                <td>Frontend</td>
+                                <td>10</td>
+                                <td>5</td>
+                                <td>16</td>
+                                <td>24</td>
+                                <td>4</td>
+                                <td>30.8</td>
+                                <td>89.8%</td>
+                            </tr>
+                            <tr id="bodyh">
+                                <td>ADEYEMO M.O</td>
+                                <td>Cloud</td>
+                                <td>7</td>
+                                <td>5</td>
+                                <td>12</td>
+                                <td>18</td>
+                                <td>5</td>
+                                <td>30.5</td>
+                                <td>77.5%</td>
+                            </tr>
+                            <tr id="bodyh">
+                                <td>ADEYEMO A.S</td>
+                                <td>Frontend</td>
+                                <td>9</td>
+                                <td>5</td>
+                                <td>16</td>
+                                <td>24</td>
+                                <td>5</td>
+                                <td>34.5</td>
+                                <td>93.5%</td>
+                            </tr>
+                            <tr id="bodyh">
+                                <td>ADEYEMO J.O</td>
+                                <td>Cloud</td>
+                                <td>9</td>
+                                <td>4</td>
+                                <td>16</td>
+                                <td>20</td>
+                                <td>5</td>
+                                <td>38.5</td>
+                                <td>92.5%</td>
+                            </tr>
+                            <tr id="bodyh">
+                                <td>ADEYEMO M.A</td>
+                                <td>Backend</td>
+                                <td>8</td>
+                                <td>5</td>
+                                <td>12</td>
+                                <td>15</td>
+                                <td>5</td>
+                                <td>30.5</td>
+                                <td>75.5%</td>
+                            </tr>
+                            <tr id="bodyh">
+                                <td>ADEYEMO M.K</td>
+                                <td>Frontend</td>
+                                <td>9</td>
+                                <td>5</td>
+                                <td>12</td>
+                                <td>24</td>
+                                <td>5</td>
+                                <td>32.5</td>
+                                <td>87.5%</td>
+                            </tr>
+                            <tr id="bodyh">
+                                <td>ALIMI I.B</td>
+                                <td>Backend</td>
+                                <td>5</td>
+                                <td>3</td>
+                                <td>6</td>
+                                <td>8</td>
+                                <td>2</td>
+                                <td>18.5</td>
+                                <td>42.5%</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="grade-container">
+                    <h2>Third Semester</h2>
+                    <table>
+                        <thead>
+                            <tr id="heading">
+                                <th>Name</th>
+                                <th>Track</th>
+                                <th>Attendace <br> (10)</th>
+                                <th>Engagement <br> (5)</th>
+                                <th>Task 1 <br> (16)</th>
+                                <th>Task 2 <br> (24)</th>
+                                <th>LMS <br> (5)</th>
+                                <th>Exam <br> (40)</th>
+                                <th>Total <br> (100)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr id="bodyh">
+                                <td>ADEYEMO M.O</td>
+                                <td>Backend</td>
+                                <td>10</td>
+                                <td>5</td>
+                                <td>16</td>
+                                <td>24</td>
+                                <td>5</td>
+                                <td>36.5</td>
+                                <td>97.5%</td>
+                            </tr>
+                            <tr id="bodyh">
+                                <td>ADEYEMO A.S</td>
+                                <td>Frontend</td>
+                                <td>9</td>
+                                <td>4</td>
+                                <td>8</td>
+                                <td>12</td>
+                                <td>5</td>
+                                <td>34.5</td>
+                                <td>72.5%</td>
+                            </tr>
+                            <tr id="bodyh">
+                                <td>ADEYEMO J.O</td>
+                                <td>Cloud</td>
+                                <td>4</td>
+                                <td>4</td>
+                                <td>8</td>
+                                <td>3</td>
+                                <td>3</td>
+                                <td>18.5</td>
+                                <td>40.5%</td>
+                            </tr>
+                            <tr id="bodyh">
+                                <td>ADEYEMO M.A</td>
+                                <td>Backend</td>
+                                <td>8</td>
+                                <td>5</td>
+                                <td>4</td>
+                                <td>20</td>
+                                <td>5</td>
+                                <td>30.0</td>
+                                <td>72.0%</td>
+                            </tr>
+                            <tr id="bodyh">
+                                <td>ADEYEMO M.K</td>
+                                <td>Frontend</td>
+                                <td>9</td>
+                                <td>5</td>
+                                <td>6</td>
+                                <td>18</td>
+                                <td>5</td>
+                                <td>32.5</td>
+                                <td>75.5%</td>
+                            </tr>
+                            <tr id="bodyh">
+                                <td>ALIMI I.B</td>
+                                <td>Frontend</td>
+                                <td>10</td>
+                                <td>5</td>
+                                <td>16</td>
+                                <td>24</td>
+                                <td>4</td>
+                                <td>30.8</td>
+                                <td>89.8%</td>
+                            </tr>
+                            <tr id="bodyh">
+                                <td>ADEYEMO M.O</td>
+                                <td>Cloud</td>
+                                <td>7</td>
+                                <td>5</td>
+                                <td>12</td>
+                                <td>18</td>
+                                <td>5</td>
+                                <td>30.5</td>
+                                <td>77.5%</td>
+                            </tr>
+                            <tr id="bodyh">
+                                <td>ADEYEMO A.S</td>
+                                <td>Frontend</td>
+                                <td>9</td>
+                                <td>5</td>
+                                <td>16</td>
+                                <td>24</td>
+                                <td>5</td>
+                                <td>34.5</td>
+                                <td>93.5%</td>
+                            </tr>
+                            <tr id="bodyh">
+                                <td>ADEYEMO J.O</td>
+                                <td>Cloud</td>
+                                <td>9</td>
+                                <td>4</td>
+                                <td>16</td>
+                                <td>20</td>
+                                <td>5</td>
+                                <td>38.5</td>
+                                <td>92.5%</td>
+                            </tr>
+                            <tr id="bodyh">
+                                <td>ADEYEMO M.A</td>
+                                <td>Backend</td>
+                                <td>8</td>
+                                <td>5</td>
+                                <td>12</td>
+                                <td>15</td>
+                                <td>5</td>
+                                <td>30.5</td>
+                                <td>75.5%</td>
+                            </tr>
+                            <tr id="bodyh">
+                                <td>ADEYEMO M.K</td>
+                                <td>Frontend</td>
+                                <td>9</td>
+                                <td>5</td>
+                                <td>12</td>
+                                <td>24</td>
+                                <td>5</td>
+                                <td>32.5</td>
+                                <td>87.5%</td>
+                            </tr>
+                            <tr id="bodyh">
+                                <td>ALIMI I.B</td>
+                                <td>Backend</td>
+                                <td>5</td>
+                                <td>3</td>
+                                <td>6</td>
+                                <td>8</td>
+                                <td>2</td>
+                                <td>18.5</td>
+                                <td>42.5%</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

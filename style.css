@@ -1,0 +1,892 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    width: 100%;
+    min-height: 500px;
+    margin: 0 auto;
+    background: lightgray;
+}
+.general-container {
+    display: flex;
+    margin: 0 auto;
+}
+/* menu section*/
+.menu {
+    width: 100%;
+    background: white;
+    max-width: 350px;
+    position: fixed;
+    overflow-x: hidden;
+}
+.name {
+   display: flex; 
+}
+.name img {
+    height: 70px;
+    width: 70px;
+    margin: 15px;
+}
+.name span {
+    font-size: 35px;
+    font-weight: bold;
+    padding-top: 25px;
+}
+ul {
+    list-style: none;
+    display: block;
+}
+ul li {
+    display: flex;
+    margin: 15px;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+}
+ul li img {
+    height: 30px;
+    width: 30px;
+    margin: 25px;
+}
+.icon {
+    margin-top: 0px;
+}
+ul li a {
+    color: black;
+    text-align: center;
+}
+ul li:hover {
+    background: green;
+    font-size: 32px;
+}
+ul li a:hover {
+    color: white;
+}
+ul li img:hover {
+    height: 40px;
+    width: 40px;
+}
+.main {
+    width: 100%;
+    margin-left: 350px;
+}
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    width: 100%;
+    margin-right: 400px;
+    
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 70px;
+    background: whitesmoke;
+    position: fixed;
+    border-bottom: 5px solid green;
+}
+.profile img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 5px;
+}
+.search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 360px;
+}
+.input {
+    border: 3px solid white;
+    background: white;
+    height: 45px;
+    width: 280px;
+    border-radius: 5px;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.3);
+}
+.input img {
+    height: 25px;
+    width: 25px;
+    margin-top:5px;
+   cursor: pointer;
+}
+.input input {
+    border: none;
+    height: 30px;
+    font-size: 20px;
+}
+.button button {
+    height: 40px;
+    width: 120px;
+    color: green;
+    background: transparent;
+    border: 3px solid lime;
+    border-radius: 15px;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: all 0.8s ease-in-out;
+    font-size: 20px;
+    font-weight: bold;
+}
+.button button:hover {
+    border: 3px solid yellow;
+    color: red;
+}
+/* Home Section*/
+
+#home h1 {
+    font-size: 35px;
+    font-weight: bold;
+    padding: 10px 10px 0px 20px;
+    color: blueviolet;
+}
+.home {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: auto;
+}
+.home-container {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 10px;
+    height: 210px;
+    width: 290px;
+    border: 5px solid white;
+    border-radius: 25px;
+    background: white;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.3);
+}
+.home-container img {
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    margin-top: 50px;
+}
+.info h4 {
+    color: orangered;
+    padding-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#bck {
+    color: orange;
+}
+#cld {
+    color: blue;
+}
+.info h5 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+}
+.info button {
+    height: 40px;
+    width: 200px;
+    color: green;
+    background: transparent;
+    border: 3px solid lime;
+    border-radius: 15px;
+    margin-left: -70px;
+    cursor: pointer;
+    transition: all 0.8s ease-in-out;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.info button:hover {
+    border: 3px solid yellow;
+    color: red;
+}
+#chart {
+    height: 120px;
+    width: 120px;
+}
+.table {
+    width: 96%;
+    height: auto;
+    border: 5px solid white;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.3);
+    margin: 20px;
+}
+.table h3 {
+    text-align: left;
+    font-size: 25px;
+    padding: 20px;
+    color: blueviolet;
+}
+table,tr,td,th {
+    border-collapse: collapse;
+}
+.head tr { 
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background: green;
+    border: 1px solid lime;
+    height: 45px;
+    width: 960px; 
+}
+.head th {
+    padding-top: 5px;
+}
+.group,.head tr {
+    display: grid;
+    grid-template-columns: 25% 1fr 1fr 1fr 1fr 1fr ;
+}
+.pic {
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+.pic img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 5px;
+}
+.pic p {
+    font-size: 16px;
+    font-weight: bold;
+}
+.group td {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+#active, #view1,#view2,#view3,#view4,#view5,#view6,#view7,#view8,
+#view9,#view10,#view11,#view12 {
+    height: 40px;
+    width: 100px;
+    color: green;
+    background: transparent;
+    border: 3px solid lime;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.8s ease-in-out;
+    font-size: 20px;
+    font-weight: bold;   
+}
+#active:hover {
+    border: 3px solid yellow;
+    color: red;
+}
+#view1:hover,#view2:hover,#view3:hover,#view4:hover,#view5:hover,#view6:hover,
+#view7:hover,#view8:hover,#view9:hover,#view10:hover,#view11:hover,#view12:hover {
+    border: 3px solid yellow;
+    color: red;
+}
+#rate {
+    margin: 30px;
+    width: 90px;
+    height: 10px;
+    border: 2px solid green;
+    background: green;
+}
+#rate1 {
+    margin: 30px;
+    width: 90px;
+    height: 10px;
+    border: 2px solid yellow;
+    background: yellow;
+}
+#rate2 {
+    margin: 30px;
+    width: 90px;
+    height: 10px;
+    border: 2px solid red;
+    background: red;
+}
+.body tr:nth-of-type(odd) {
+    background: lightgray;
+}
+.body tr:nth-of-type(even) {
+    background: gray;
+    color: white;
+}
+
+.view {
+    display: block;
+    width: 150px;
+    text-align: center;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+#views1,#views2,#views3,#views4,#views5,#views6,#views7,#views8,#views9,#views10,
+#views11,#views12 {
+    display: none;
+}
+
+/* Profile Section*/
+
+#profile h1 {
+    font-size: 35px;
+    font-weight: bold;
+    padding: 20px 20px;
+    color: blueviolet;
+    padding-top: 70px;
+}
+.profile {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: auto;
+}
+.profile-container {
+    margin: 10px;
+    height: auto;
+    width: 300px;
+    border: 5px solid white;
+    border-radius: 25px;
+    background: white;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.3);
+}
+.pimage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pimage img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin: 10px 0px;
+}
+.profile-container h3 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold; 
+}
+.semester {
+    display: flex;
+    justify-content: space-evenly;
+}
+.rate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#rate4 {
+    margin: 20px;
+    width: 120px;
+    height: 10px;
+    border: 2px solid green;
+    background: green;
+}
+#rate5 {
+    margin: 20px;
+    width: 120px;
+    height: 10px;
+    border: 2px solid yellow;
+    background: yellow;
+}
+#rate6 {
+    margin: 20px;
+    width: 120px;
+    height: 10px;
+    border: 2px solid red;
+    background: red;
+}
+#PD1,#PD2,#PD3,#PD4,#PD5,#PD6,#PD7,#PD8,#PD9,#PD10,#PD11,#PD12 {
+    height: 40px;
+    width: 290px;
+    color: green;
+    background: transparent;
+    border: 3px solid lime;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.8s ease-in-out;
+    font-size: 20px;
+    font-weight: bold;     
+}
+#PD1:hover,#PD2:hover,#PD3:hover,#PD4:hover,#PD5:hover,#PD6:hover,#PD7:hover,#PD8:hover,
+#PD9:hover,#PD10:hover,#PD11:hover,#PD12:hover {
+    border: 3px solid yellow;
+    color: red;
+}
+#span1,#span2,#span3,#span4,#span5,#span6,#span7,#span8,#span9, 
+#span10,#span11,#span12{
+    display: none;
+    font-size: 20px;
+    padding: 10px;
+    padding-right: 50px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+#pc1 {
+    background: gold;
+    border: 3px solid gold;
+}
+#pc1:hover {
+    background: olive;
+    border: 3px solid olive;
+}
+#pc3 {
+    background: salmon;
+    border: 3px solid salmon;
+}
+#pc3:hover {
+    background: pink;
+    border: 3px solid pink;
+}
+#pc2 {
+    background: purple;
+    border: 3px solid purple;
+}
+#pc2:hover {
+    background: plum;
+    border: 3px solid plum;
+}
+#pc4 {
+    background: blue;
+    border: 3px solid blue;
+}
+#pc4:hover {
+    background: skyblue;
+    border: 3px solid skyblue;
+}
+#pc5 {
+    background: orangered;
+    border: 3px solid orangered;
+}
+#pc5:hover {
+    background: lightcoral;
+    border: 3px solid lightcoral;
+}
+#pc6 {
+    background: violet;
+    border: 3px solid violet;
+}
+#pc6:hover {
+    background: lightpink;
+    border: 3px solid lightpink;
+}
+#pc7 {
+    background: salmon;
+    border: 3px solid salmon;
+}
+#pc7:hover {
+    background: pink;
+    border: 3px solid pink;
+}
+#pc8 {
+    background: violet;
+    border: 3px solid violet;
+}
+#pc8:hover {
+    background: lightpink;
+    border: 3px solid lightpink;
+}
+#pc9 {
+    background: purple;
+    border: 3px solid purple;
+}
+#pc9:hover {
+    background: plum;
+    border: 3px solid plum;
+}
+#pc10 {
+    background: orangered;
+    border: 3px solid orangered;
+}
+#pc10:hover {
+    background: lightcoral;
+    border: 3px solid lightcoral;
+}
+#pc11 {
+    background: blue;
+    border: 3px solid blue;
+}
+#pc11:hover {
+    background: skyblue;
+    border: 3px solid skyblue;
+}
+#pc12 {
+    background: gold;
+    border: 3px solid gold;
+}
+#pc12:hover {
+    background: olive;
+    border: 3px solid olive;
+}
+/* Attendance Section*/
+.head1 {
+    width: 100%;
+}
+.group1, #head1 {
+    display: grid;
+    grid-template-columns: 20%  10% 11% 13% 13% 13% 9% 1fr ;
+    width: 100%;
+    margin-left: 10px;
+}
+#head1 th {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+
+#attendance h1 {
+    font-size: 35px;
+    font-weight: bold;
+    padding: 20px 20px;
+    color: blueviolet;
+    padding-top: 70px;
+}
+.table1 {
+    width: 95%;
+    height: auto;
+    border: 5px solid white;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.3);
+    margin: 20px;
+}
+.table1 h3 {
+    text-align: left;
+    font-size: 25px;
+    padding: 20px;
+    color: blueviolet;
+}
+#head1 { 
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    background: green;
+    border: 1px solid lime;
+    height: 60px;
+    width: 940px; 
+}
+.group1 td {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+.attend,#head1,#head1 th,.group1 td {
+    border-collapse: collapse;
+}
+#rates {
+    margin-left: 5px;
+    margin-top: 50px;
+    width: 80px;
+    height: 20px;
+    border: 2px solid green;
+    background: green;
+}
+#rates1 {
+    margin-left: 5px;
+    margin-top: 50px;
+    width: 80px;
+    height: 20px;
+    border: 2px solid yellow;
+    background: yellow;
+}
+#rates2 {
+    margin-left: 5px;
+    margin-top: 50px;
+    width: 80px;
+    height: 20px;
+    border: 2px solid red;
+    background: red;
+}
+.group1:nth-of-type(odd) {
+    background: lightgray;
+}
+.group1:nth-of-type(even) {
+    background: gray;
+    color: white;
+}
+
+/*Track section*/
+
+.track-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.frontend {
+    margin: 10px;
+    height: auto;
+    width: 300px;
+    border: 5px solid plum;
+    border-radius: 25px;
+    background: plum;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.3);
+}
+.backend {
+    margin: 10px;
+    height: auto;
+    width: 300px;
+    border: 5px solid gold;
+    border-radius: 25px;
+    background: gold;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.3);
+}
+.cloud {
+    margin: 10px;
+    height: auto;
+    width: 300px;
+    border: 5px solid lightblue;
+    border-radius: 25px;
+    background: lightblue;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.3);
+}
+.photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.photo img {
+    height: 120px;
+    width: 160px;
+}
+.detail p {
+    font-size: 15px;
+    padding: 20px 10px;
+    text-align: center;
+}
+.language h5 {
+    font-size: 20px;
+    padding: 20px 10px;
+    text-align: center;
+}
+.fe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fe button {
+    height: 40px;
+    width: 120px;
+    color: green;
+    background: transparent;
+    border: 3px solid lime;
+    border-radius: 15px;
+    margin: 20px;
+    cursor: pointer;
+    transition: all 0.8s ease-in-out;
+    font-size: 20px;
+    font-weight: bold;
+}
+.fe button:hover {
+    border: 3px solid yellow;
+    color: red;
+}
+#track h1 {
+    font-size: 35px;
+    font-weight: bold;
+    padding: 10px 20px;
+    color: blueviolet;
+    padding-top: 70px;  
+}
+.add h3 {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    color: orangered;
+    padding: 10px 0px;
+}
+/* Course Section*/
+#course h1 {
+    font-size: 35px;
+    font-weight: bold;
+    padding: 20px 20px;
+    color: blueviolet;
+    padding-top: 70px;
+}
+.course-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+}
+.course-container h5 {
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#active1 {
+    border-bottom: 5px solid red;
+}
+.fe-container {
+    width: 95%;
+    height: auto;
+    border: 5px solid white;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.3);
+    margin: 20px;
+}
+.fe-contain {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fe-container h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: orangered;
+    text-align: center;
+}
+#back,#pg1 {
+    color: orange;
+}
+#cloud,#pg2 {
+    color: blue;
+}
+.html,.css,.js, .python,.php,.go, .java, .ruby, .net {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    height: 200px;
+    border: 5px solid orangered;
+    border-radius: 10px;
+    background: orangered;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.3);
+    margin: 10px;
+}
+.css {
+    border: 5px solid blue;
+    background: blue;
+}
+.js {
+    border: 5px solid gold;
+    background: gold;
+}
+.python {
+    border: 5px solid blue;
+    background: blue;
+}
+.php {
+    border: 5px solid lightskyblue;
+    background: lightskyblue;
+}
+.go {
+    border: 5px solid black;
+    background: black;
+}
+.java {
+    border: 5px solid skyblue;
+    background: skyblue;
+}
+.ruby {
+    border: 5px solid red;
+    background: red;
+}
+.net {
+    border: 5px solid skyblue;
+    background: skyblue;
+}
+.html img,.css img, .js img, .python img, .php img, .go img, 
+.java img, .ruby img, .net img {
+    width: 100px;
+    height: 150px;
+    margin: 10px;
+}
+.htl h2 {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    padding-bottom: 10px;
+}
+#pg {
+    color: red;
+}
+.htl button {
+    height: 40px;
+    width: 120px;
+    color: green;
+    background: transparent;
+    border: 3px solid lime;
+    border-radius: 15px;
+    margin: 20px;
+    cursor: pointer;
+    transition: all 0.8s ease-in-out;
+    font-size: 20px;
+    font-weight: bold;
+}
+.htl button:hover {
+    border: 3px solid yellow;
+    color: red;
+} 
+/* grade section */
+
+#grade h1 {
+    font-size: 35px;
+    font-weight: bold;
+    padding: 20px 20px;
+    color: blueviolet;
+    padding-top: 70px;
+}
+.grade-container {
+    width: 95%;
+    height: auto;
+    border: 5px solid white;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.3);
+    margin: 20px;
+}
+.grade-container table {
+    margin-bottom: 20px;
+}
+.grade-container h2 {
+    font-size: 25px;
+    font-weight: bold;
+    color: blueviolet;
+    text-align: center;
+    padding: 10px;
+}
+#heading, #bodyh {
+    display: grid;
+    grid-template-columns: 20% 12% 1fr 1fr 10% 10% 8% 8% 8%;
+    justify-content: space-between;
+    align-items: center;
+    width: 950px;
+    padding-bottom: 10px;
+}
+#heading {
+    background: green;
+    border: 5px solid lime;
+    font-size: 18px;
+    font-weight: bold;
+    height: 70px;
+    color: white;
+}
+#bodyh {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+#bodyh:nth-of-type(odd) {
+    background: lightgray;
+}
+#bodyh:nth-of-type(even) {
+    background: gray;
+    color: white;
+}
